@@ -1,0 +1,43 @@
+/*首页*/
+html,body{ height: 100%; width: 100%;}
+#all{ width:100%; height:100%;}
+#left{width: 13%;height: 100%;float: left;}
+#right{width: 13%;height: 100%;float: left;}
+#center{ width:73%; height:100%;float: left;background-image: url(../images/index_bg.png);}
+#header{ width:100%; height:7%;}
+#neck{ width:100%; height:7%}
+#navbar{height: 100%;width: 50%;float: left;margin-left: 15%;}
+#myclock{height: 100%; width: 30%;float: right;margin-left: 1%;padding-top: 20px;}
+#core{ width:100%; height:76%}
+#foot{ width:100%; height:10%}
+#title{height: 100%;width: 20%;float:left;margin-left: 4%;float: left;}
+#photo{height: 100%;width: 5%;float:right ;padding-right: 3px;}
+#user{height: 100%;width: 15%;float: right;margin-right: 10px;padding-left: 2px;}
+a{text-decoration: none;}
+a:link {color: #000} /*未被访问的链接*/
+a:visited {color: #000} /*已被访问过的链接 */
+a:hover {color: palevioletred}   /* 鼠标悬浮在上的链接*/
+a:active {color: #28A4C9}  /*鼠标点中激活链接*/
+div ul li{display:inline-block}
+.navbarselect{font-size: x-large;}
+#time{height: 100%;width: 33%;float: left;}
+#copy{height: 100%;width: 33%;float: left;text-align: center;font-size: large;margin-bottom: 1px;}
+#weixin{height: 70%;width: 33%;float: left;margin-top: 10px;}
+
+/*日志*/
+.log_type{color: #2AABD2;font-family:"微软雅黑";font-size: 16px;}
+#log_one{width: 80%;height: 5%;margin-left: 2px;border-bottom:1px solid #8C8C8C;text-align: left;}
+#log_two{width: 100%;height:5%}
+#log_three{width: 100%;height:83%}
+#log_four{width: 100%;height:5%;align-content: center;}
+#writelog{height: 100%;width: 8%;float: left;margin-left: 5px;text-align: center;background-color:#2AABD2 ;color: white;line-height:initial}
+#logtemple{height: 100%;width: 5%;float: left;margin-left: 5px;text-align: center;}
+#addcategory{height: 100%;width: 5%;float: left;margin-left: 5px;text-align: center;}
+#form{height: 100%;width: 20%;float: left;margin-left: 5px;text-align: center;}
+ .btn-submit {display: inline-block; width: 80px;border: none 0; padding: 8px 0px; font-size: 14px;font-family: "Microsoft Yahei";color: white;text-align: center;}
+.logper{width: 100%;height: 4%;}
+.logtitle{width: 70%;height: 100%;float: left;padding-left: 2%;}
+.logedit{width: 28%;height:100% ;float: right;}
+.logeditfont{color: #2AABD2;font-family:"微软雅黑";font-size: 12px;}
+.logedittime{color: #777;font-family:"微软雅黑";font-size: 12px;}
+
